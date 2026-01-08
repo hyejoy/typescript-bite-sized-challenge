@@ -33,16 +33,17 @@ TypeScript 핵심 개념을 빠르게 학습하고,
 
 ## 📁 디렉토리 구조
 
+```text
 ./
-├── 01-basic/ # TypeScript 기본 개념
-├── 02-types/ # 타입 시스템 핵심
-├── 03-functions/ # 함수와 타입
-├── 04-objects/ # 객체, 인터페이스, 타입 별칭
-├── 05-generics/ # 제네릭
-├── 06-adbanced/ # 고급 타입
-├── 07-utility-types/ # 유틸리티 타입
-├── 08-practice/ # 챌린지 대비 실전 연습
-└── README.md
+├── components/  # 공통 UI 컴포넌트
+├── features/    # 도메인 기능 모듈
+├── pages/       # 페이지 구성
+├── public       # 정적 리소스
+├── hooks/       # custom hooks
+├── styles/      # 스타일 관련
+├── lib/         # 유틸 함수 및 API 호출
+└── types/       # 전역 타입 정의
+```
 
 ## 🧠 학습 목차 (강의 흐름 기반)
 
