@@ -35,14 +35,18 @@ TypeScript 핵심 개념을 빠르게 학습하고,
 
 ```text
 ./
-├── components/  # 공통 UI 컴포넌트
-├── features/    # 도메인 기능 모듈
-├── pages/       # 페이지 구성
-├── public       # 정적 리소스
-├── hooks/       # custom hooks
-├── styles/      # 스타일 관련
-├── lib/         # 유틸 함수 및 API 호출
-└── types/       # 전역 타입 정의
+├── 01-basic/          # TypeScript 시작하기 (개념, 컴파일, tsconfig)
+├── 02-types/          # 기본 타입 (number, string, array, tuple, enum 등)
+│   └── dist/          # 컴파일 결과 (학습용, 선택적 커밋)
+├── 03-functions/      # 함수 타입, 파라미터, 반환 타입
+├── 04-objects/        # object, interface, type alias
+├── 05-union-intersection/ # union & intersection 타입
+├── 06-generics/       # 제네릭 기본 ~ 제약 조건
+├── 07-advanced/       # keyof, typeof, mapped type 등
+├── 08-utility-types/  # Partial, Pick, Omit, Record 등
+├── 09-practice/       # 실전 연습 및 챌린지 대비
+├── types/             # 공통 전역 타입 정의
+└── README.md
 ```
 
 ## 🧠 학습 목차 (강의 흐름 기반)
@@ -96,7 +100,7 @@ TypeScript 핵심 개념을 빠르게 학습하고,
 - intersection type
 - 타입 좁히기 (type narrowing)
 
-📁 `types/`
+📁 `union-intersection/`
 
 ---
 
