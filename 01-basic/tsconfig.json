@@ -28,6 +28,8 @@
     // @types 버전 20이상 인 경우 추가
     // 불필요한 타입 정의 파일의 타입 검사생략 옵션
     "skipDefaultLibCheck": true
-  },
-  "ts-node": { "esm": true }
+  }
+
+  // tsx는 ESM 기반 실행기라 필요없음
+  // "ts-node": { "esm": true }
 }

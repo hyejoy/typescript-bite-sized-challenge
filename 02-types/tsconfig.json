@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "dist",
+    "moduleDetection": "force",
+    "strict": true // stricNullChecks 상위옵션
+    // "strictNullChecks": false
+  }
+}
