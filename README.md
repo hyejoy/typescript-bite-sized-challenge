@@ -1,5 +1,9 @@
 # TypeScript Bite-Sized Challenge
 
+## Created on
+
+2026년 01월 07일
+
 이 리포지토리는  
 TypeScript 핵심 개념을 빠르게 학습하고,  
 실제 챌린지 및 Next.js 프로젝트에 적용하기 위한 학습·실습 공간입니다.
@@ -27,24 +31,18 @@ TypeScript 핵심 개념을 빠르게 학습하고,
 
 ---
 
-## 📂 디렉토리 구조
-
-## 📁 디렉토리 구조
-
 ## 📁 디렉토리 구조
 
 ./
-├── 01-basics/ # TypeScript 기본 개념
+├── 01-basic/ # TypeScript 기본 개념
 ├── 02-types/ # 타입 시스템 핵심
 ├── 03-functions/ # 함수와 타입
 ├── 04-objects/ # 객체, 인터페이스, 타입 별칭
 ├── 05-generics/ # 제네릭
-├── 06-advanced/ # 고급 타입
+├── 06-adbanced/ # 고급 타입
 ├── 07-utility-types/ # 유틸리티 타입
 ├── 08-practice/ # 챌린지 대비 실전 연습
 └── README.md
-
----
 
 ## 🧠 학습 목차 (강의 흐름 기반)
 
