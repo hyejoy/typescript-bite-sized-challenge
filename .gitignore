@@ -14,6 +14,10 @@ pnpm-debug.log*
 dist/
 build/
 
+# 예외 규칙 
+!02-types/dist/
+!02-types/dist/**
+
 # =========================
 # Environment variables
 # =========================
