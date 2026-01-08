@@ -84,13 +84,14 @@ let countryNumberCodesEmpty: CountryNumberCodes = {}; // 오류안남!
  * 📝인덱스 시그니처 타입은 규칙을 위반하지 않으면 모든 객체를 허용하는 타입
  *  위의 코드는 아무런 프로퍼티가 없으니까 규칙을 위반했다고 판단하지 않아서 오류가 안남
  *  이런점을 주의하고, 만약 오류가 나게 하고싶다면, 밑의 코드처럼 작성하면 됨
- *  Korea의 값은 인덱스 시그니처 타입과 일치시켜줘야함
- *  Korea: string 으로 지정시 에러남
  */
 
 type CountryNumber2 = {
-  [key: string]: number;
+  [key: string]: number; // 인덱스 시그니처 타입은 number
   Korea: number;
 };
+
+//  * Korea의 값은 인덱스 시그니처 타입과 일치시켜줘야함
+//  * Korea: string 으로 지정시 에러남
 
 // let countryNumberCodesEmpty2: CountryNumber2 = {};  (❌ Korea속성 없으므로 오류)

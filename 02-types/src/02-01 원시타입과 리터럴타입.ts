@@ -30,7 +30,7 @@ let unde1: undefined = undefined;
 // 임시로 null을 넣을수 있게 할수 있음
 // let numA: number = null;
 
-// 리터럴(값) : 값 그 자체가 타입이 되는 타입
+// ⭐리터럴(값) : 값 그 자체가 타입이 되는 타입
 // 고정된 값 제외 어떤 값도 넣을수 없음
 let numA: 10 = 10;
 let strA: "hello" = "hello";
