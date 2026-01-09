@@ -54,6 +54,7 @@ type CountryCodes0 = {
 // 객체의 property 와  value 타입 관련된 규칙을 파악!
 // => key가 string 타입, value도 string타입인 프로퍼티들임!
 // string : string 타입이면 모두 허용하게 하자!
+// ⭐ 인덱스 시그니처 타입
 
 type CountryCodes = {
   [key: string]: string;
