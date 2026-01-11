@@ -35,117 +35,154 @@ TypeScript 핵심 개념을 빠르게 학습하고,
 
 ```text
 ./
-├── 01-basic/          # TypeScript 시작하기 (개념, 컴파일, tsconfig)
-├── 02-types/          # 기본 타입 (number, string, array, tuple, enum 등)
-│   └── dist/          # 컴파일 결과 (학습용, 선택적 커밋)
-├── 03-functions/      # 함수 타입, 파라미터, 반환 타입
-├── 04-objects/        # object, interface, type alias
-├── 05-union-intersection/ # union & intersection 타입
-├── 06-generics/       # 제네릭 기본 ~ 제약 조건
-├── 07-advanced/       # keyof, typeof, mapped type 등
-├── 08-utility-types/  # Partial, Pick, Omit, Record 등
-├── 09-practice/       # 실전 연습 및 챌린지 대비
-├── types/             # 공통 전역 타입 정의
+├── 01-introduction/        # 강의 소개 및 TypeScript 개론 (환경 설정, 컴파일, tsconfig)
+├── 02-basic-types/         # 기본 타입 (원시 타입, 리터럴, 배열, 튜플, enum 등)
+│   └── dist/               # 컴파일 결과 (학습용, 선택적 커밋)
+├── 03-type-system/         # 타입 시스템 이해 (타입 계층, 호환성, 타입 좁히기 등)
+├── 04-functions/           # 함수와 타입 (함수 타입, 호출 시그니처, 오버로딩)
+├── 05-interfaces/          # 인터페이스 (확장, 합치기)
+├── 06-classes/             # 클래스 (접근 제어자, 인터페이스 구현)
+├── 07-generics/            # 제네릭 (함수, 인터페이스, 클래스, Promise)
+├── 08-type-manipulation/   # 타입 조작 (keyof, indexed access, mapped, template literal)
+├── 09-conditional-types/   # 조건부 타입 (conditional, distributive, infer)
+├── 10-utility-types/       # 유틸리티 타입 (Partial, Pick, Omit, Record 등)
+├── 11-practice/            # 실전 연습 및 챌린지 대비
+├── types/                  # 공통 전역 타입 정의
 └── README.md
+
 ```
 
-## 🧠 학습 목차 (강의 흐름 기반)
+---
 
-### 1️⃣ TypeScript 시작하기
+```md
+## 🧠 학습 목차 (강의 섹션 기준)
 
-- TypeScript란?
-- 컴파일 과정 이해
-- tsconfig 기본 설정
+### 1️⃣ 강의 소개 및 타입스크립트 개론
 
-📁 `basics/`
+- 강의 소개
+- 개발 환경 준비
+- 타입스크립트 소개
+- 타입스크립트 동작 원리
+- 컴파일 및 tsconfig 설정
+
+📁 `01-introduction/`
 
 ---
 
-### 2️⃣ 기본 타입
+### 2️⃣ 타입스크립트 기본
 
-- number, string, boolean
-- array, tuple
+- 기본 타입
+- 원시 타입과 리터럴 타입
+- 배열과 튜플
+- 객체
+- 타입 별칭과 인덱스 시그니처
 - enum
-- any / unknown / void / never
+- any / unknown
+- void / never
 
-📁 `types/`
-
----
-
-### 3️⃣ 함수와 타입
-
-- 함수 타입 정의
-- 선택적 매개변수
-- 기본값 파라미터
-- 반환 타입 명시
-
-📁 `functions/`
+📁 `02-basic-types/`
 
 ---
 
-### 4️⃣ 객체 타입
+### 3️⃣ 타입스크립트 이해하기
 
-- object 타입
-- interface
-- type alias
-- readonly / optional property
+- 타입은 집합이다
+- 타입 계층도
+- 객체 타입의 호환성
+- 대수 타입
+- 타입 추론
+- 타입 단언
+- 타입 좁히기
+- 서로소 유니온 타입
 
-📁 `objects/`
-
----
-
-### 5️⃣ 유니온 & 인터섹션
-
-- union type
-- intersection type
-- 타입 좁히기 (type narrowing)
-
-📁 `union-intersection/`
+📁 `03-type-system/`
 
 ---
 
-### 6️⃣ 제네릭 (Generic)
+### 4️⃣ 함수와 타입
 
-- 제네릭 기본 문법
-- 제네릭 함수
-- 제네릭 인터페이스
-- 제네릭 제약 조건
+- 함수 타입
+- 함수 타입 표현식과 호출 시그니처
+- 함수 타입의 호환성
+- 함수 오버로딩
+- 사용자 정의 타입 가드
 
-📁 `generics/`
+📁 `04-functions/`
 
 ---
 
-### 7️⃣ 고급 타입
+### 5️⃣ 인터페이스
 
-- keyof
-- typeof
+- 인터페이스
+- 인터페이스 확장
+- 인터페이스 합치기
+
+📁 `05-interfaces/`
+
+---
+
+### 6️⃣ 클래스
+
+- 자바스크립트 클래스
+- 타입스크립트 클래스
+- 접근 제어자
+- 인터페이스와 클래스
+
+📁 `06-classes/`
+
+---
+
+### 7️⃣ 제네릭
+
+- 제네릭 소개
+- 타입 변수 응용
+- 제네릭 인터페이스 / 타입 별칭
+- 제네릭 클래스
+- Promise와 제네릭
+
+📁 `07-generics/`
+
+---
+
+### 8️⃣ 타입 조작
+
 - indexed access type
+- keyof 연산자
 - mapped type
+- template literal type
 
-📁 `advanced/`
-
----
-
-### 8️⃣ 유틸리티 타입
-
-- Partial
-- Required
-- Pick / Omit
-- Record
-- Readonly
-
-📁 `utility-types/`
+📁 `08-type-manipulation/`
 
 ---
 
-### 9️⃣ 실전 연습 (챌린지 대비)
+### 9️⃣ 조건부 타입
+
+- 조건부 타입
+- 분산적인 조건부 타입
+- infer
+
+📁 `09-conditional-types/`
+
+---
+
+### 🔟 유틸리티 타입
+
+- Partial / Required / Readonly
+- Pick / Omit / Record
+- Exclude / Extract / ReturnType
+
+📁 `10-utility-types/`
+
+---
+
+### 1️⃣1️⃣ 실전 연습 (챌린지 대비)
 
 - API 응답 타입 정의
 - props 타입 설계
 - 상태(state) 타입 설계
 - 공통 타입 분리 전략
 
-📁 `practice/`
+📁 `11-practice/`
 
 ---
 
@@ -172,3 +209,4 @@ TypeScript 핵심 개념을 빠르게 학습하고,
 ## ✅ 최종 목표
 
 > TypeScript를 의식하지 않아도 자연스럽게 쓰는 상태 만들기
+```
