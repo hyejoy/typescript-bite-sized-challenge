@@ -6,8 +6,7 @@
 - 핵심 포인트:
   - 
 
-- 챌린지 적용 아이디어:
-  - 
+#- 챌린지 적용 아이디어: 
 
 # 예시
 # [TypeScript] Union & Intersection Types
