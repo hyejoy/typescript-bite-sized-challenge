@@ -1,5 +1,5 @@
 - 프로젝트 환경 설정
-npm init -y					          # node.js 초기화 (package.json) / -y : 기본값으로 초기화
+npm init -y					        # node.js 초기화 (package.json) / -y : 기본값으로 초기화
 npm i @types/node			      # node.js가 제공하는 내장 기능들에 대한 타입정보를 갖고 있는 패키지
 npm i -D typescript         # TypeScript 컴파일러(tsc) 설치
 npx tsc --init              # 타입스크립트 설정파일 초기화 (tsconfig.json)
