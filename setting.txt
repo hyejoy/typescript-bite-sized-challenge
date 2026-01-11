@@ -1,9 +1,9 @@
 - 프로젝트 환경 설정
-npm init 					          # node.js 초기화 (package.json)
+npm init -y					          # node.js 초기화 (package.json) / -y : 기본값으로 초기화
 npm i @types/node			      # node.js가 제공하는 내장 기능들에 대한 타입정보를 갖고 있는 패키지
 npm i -D typescript         # TypeScript 컴파일러(tsc) 설치
-npm i -D tsx                # TypeScript 파일을 바로 실행하기 위한 러너(ts-node)
 npx tsc --init              # 타입스크립트 설정파일 초기화 (tsconfig.json)
+npm i -D tsx                # TypeScript 파일을 바로 실행하기 위한 러너(ts-node)
 npx tsc -v					        # tsc 버전 확인 (npx는 local실행을 뜻함)
 npx tsc src/index.ts   		  # TypeScript 파일을 JavaScript로 컴파일
 tsx src/index.ts  			    # TypeScript 파일을 Node.js에서 바로 실행

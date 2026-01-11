@@ -1,0 +1,18 @@
+{
+  "name": "04-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^25.0.6",
+    "0d": "^0.0.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
